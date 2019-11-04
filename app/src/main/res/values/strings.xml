@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LiMa</string>
+    <string-array name="kelompok">
+        <item>Kelompok 1</item>
+        <item>Kelompok 2</item>
+        <item>Kelompok 3</item>
+        <item>Kelompok 4</item>
+        <item>Kelompok 5</item>
+        <item>Kelompok 6</item>
+    </string-array>
+</resources>

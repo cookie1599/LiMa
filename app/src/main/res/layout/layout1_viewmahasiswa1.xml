@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle" />
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp">
+
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="320dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/radius_avg"
+            android:text="Nilai"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:padding="5dp"
+            android:src="@drawable/graph_1"/>
+
+        <TextView
+            android:id="@+id/avg1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="70dp"
+            android:inputType="number"
+            android:text="70"
+            android:textAlignment="center"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp">
+
+        <TextView
+            android:id="@+id/kelompok"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:background="@drawable/white_card"/>
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/white_card"/>
+
+        <ImageView
+            android:id="@+id/headeravg"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/table_avg"/>
+
+        <TextView
+            android:id="@+id/namaheader"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="85dp"
+            android:text="Nama"
+            android:textSize="12dp"
+            android:textColor="@color/background"/>
+
+        <TextView
+            android:id="@+id/nilaiheader"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="85dp"
+            android:text="Nilai"
+            android:textSize="12dp"
+            android:textColor="@color/background"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            android:text="Sprint 1"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai1"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails1"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="120dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/background2"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="155dp"
+            android:text="Sprint 2"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="155dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="155dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails3"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="155dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="185dp"
+            android:background="@color/background2"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="190dp"
+            android:text="Sprint 3"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="190dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai4"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="190dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails4"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="190dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="220dp"
+            android:background="@color/background2"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="225dp"
+            android:text="Sprint 4"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="225dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai5"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="225dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails5"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="225dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="225dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="255dp"
+            android:background="@color/background2"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="260dp"
+            android:text="UTS"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai6"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="260dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails6"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="260dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="290dp"
+            android:background="@color/background2"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="295dp"
+            android:text="UAS"
+            android:textSize="12dp"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="295dp"
+            android:src="@drawable/star_1"
+            android:background="@drawable/white_card"/>
+
+        <TextView
+            android:id="@+id/nilai7"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="295dp"
+            android:text="70"
+            android:textAlignment="center"
+            android:textColor="@color/table_avg"/>
+
+        <ImageButton
+            android:id="@+id/viewdetails7"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/viewdetails"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="295dp"
+            android:text="View Details"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="325dp"
+            android:background="@color/background2"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
