@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle" />
+
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle1" />
+
+    </RelativeLayout>
+
+    <!-- Table Statistik -->
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-330dp"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/radius_avg"
+        android:text="Nilai"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginTop="196dp"
+        android:background="#fffff"
+        android:padding="5dp"
+        android:src="@drawable/graph_1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:inputType="number"
+        android:text="70"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="-305dp"
+        android:layout_marginTop="235dp"
+        android:background="#d9d9d9"
+        android:rotation="90"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="235dp"
+        android:background="#d9d9d9"
+        android:rotation="90"/>
+
+    <ImageView
+        android:layout_width="266dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="-332.5dp"
+        android:layout_marginTop="300dp"
+        android:background="#d9d9d9" />
+
+    <!-- Pilih kelompok -->
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="320dp"
+        android:text="Kelompok"
+        android:textSize="18dp"/>
+
+    <!-- Edit Nilai -->
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/button1"
+        android:src="@drawable/plus"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/button1"
+        android:src="@drawable/delete_1" />
+
+
+    <!-- Table Nilai Sprint -->
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/radius_avg2"/>
+    
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-340dp"
+        android:layout_marginTop="352dp"
+        android:text="Nama"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="352dp"
+        android:text="Nilai"
+        android:textColor="@color/background"/>
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="479dp"
+        android:layout_marginLeft="-295dp"
+        android:background="@color/background3"
+        android:rotation="90"/>
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="479dp"
+        android:layout_marginLeft="-295dp"
+        android:background="@color/background3"
+        android:rotation="90"/>
+
+
+</LinearLayout>

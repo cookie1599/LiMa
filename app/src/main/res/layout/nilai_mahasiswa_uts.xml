@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle" />
+
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rectangle1" />
+
+    </RelativeLayout>
+
+    <!-- Table Nilai UTS-->
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/v_nilai_detail_sprint"
+        android:text="Details"
+        android:textAlignment="center"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="-125dp"
+        android:layout_marginTop="190dp"
+        android:background="#d9d9d9"
+        android:rotation="90"/>
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="-2dp"
+        android:background="#d9d9d9"
+        android:rotation="90"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="192dp"
+        android:background="#d9d9d9"/>
+
+    <!-- Isi Table -->
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-385dp"
+        android:text="UTS"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Selasa 1 Oktober"
+        android:textColor="#858585"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-18dp"
+        android:text="Admin 1"
+        android:textColor="#858585"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="2dp"
+        android:background="#d9d9d9"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="Dosen A"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="27dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="138dp"
+        android:src="@drawable/star"/>
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Menpro"
+        android:textColor="#858585"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="3dp"
+        android:text="Nilai"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-15dp"
+        android:text="70"
+        android:textColor="#000000"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="10dp"
+        android:text="Dosen B"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Moblie"
+        android:textColor="#858585"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="3dp"
+        android:text="Nilai"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-15dp"
+        android:text="70"
+        android:textColor="#000000"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="10dp"
+        android:text="Dosen C"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="OOAD"
+        android:textColor="#858585"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="3dp"
+        android:text="Nilai"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-15dp"
+        android:text="70"
+        android:textColor="#000000"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="12dp"
+        android:background="#d9d9d9"/>
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="3dp"
+        android:text="0 Point"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-15dp"
+        android:text="-"
+        android:textColor="#000000"
+        android:textSize="12dp"/>
+
+</LinearLayout>
